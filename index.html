@@ -31,66 +31,66 @@
       margin-bottom: 12px;
     }
     .footer { margin-top: 48px; font-size: 13px; color: #3D7055; text-align: center; }
+    strong { color: #E2F5EB; }
   </style>
 </head>
 <body>
 
   <h1>Privacy Policy</h1>
-  <div class="meta">Revisely &nbsp;·&nbsp; Last updated: March 2026</div>
+  <div class="meta">Revisely &nbsp;·&nbsp; Last updated: April 2026</div>
 
   <div class="card">
     <h2>1. Introduction</h2>
-    <p>Revisely ("we", "our", or "us") is a DSA and Coding Logic quiz app built for learners. This Privacy Policy explains how we handle your information when you use our Android application.</p>
+    <p>Revisely ("we", "our", or "us") is a DSA and Coding Logic quiz app. We are committed to transparency regarding how we handle user information. This policy describes the data handled by our Android application.</p>
   </div>
 
   <div class="card">
     <h2>2. Information We Collect</h2>
-    <p>Revisely does <strong style="color:#E2F5EB">not</strong> collect, store, or transmit any personally identifiable information (PII). Specifically:</p>
+    <p>Revisely collects limited information to provide a personalized learning experience:</p>
     <ul>
-      <li>We do not require account creation or login.</li>
-      <li>We do not collect your name, email, phone number, or location.</li>
-      <li>All quiz progress, XP, streaks, and settings are stored <strong style="color:#E2F5EB">locally on your device only</strong> using Room Database and DataStore.</li>
+      <li><strong>User-Provided Information:</strong> We store a <strong>Username</strong> and <strong>Avatar preference</strong> that you set within the app.</li>
+      <li><strong>User-Generated Content:</strong> Personal study notes and "Logic Cards" created by you in the Notebook section are stored on your device.</li>
+      <li><strong>App Activity:</strong> We track your quiz progress, XP, streaks, and levels to provide core app functionality.</li>
+    </ul>
+    <p>We do <strong>not</strong> collect sensitive information such as your email, phone number, or precise location.</p>
+  </div>
+
+  <div class="card">
+    <h2>3. Cloud Sync & Data Backup</h2>
+    <p>Revisely uses the <strong>Android Auto-Backup</strong> service. This means your app data (including progress, username, and notes) is automatically synced to your <strong>private Google Drive account</strong>.</p>
+    <ul>
+      <li>This allows you to restore your progress when you reinstall the app or switch devices.</li>
+      <li>We (the developers) do <strong>not</strong> have access to this backup data; it is managed entirely by Google.</li>
+      <li>You can disable this feature in your Android system settings under <em>Settings → Google → Backup</em>.</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>3. Advertising (Google AdMob)</h2>
-    <p>Revisely uses Google AdMob to display ads. AdMob may collect device information and use it to show personalized ads in accordance with Google's Privacy Policy.</p>
+    <h2>4. Advertising (Google AdMob)</h2>
+    <p>We use Google AdMob to display advertisements. AdMob may automatically collect certain information, including:</p>
     <ul>
-      <li>Ad data is handled solely by Google AdMob.</li>
-      <li>You can opt out of personalized ads via your device settings: <em>Settings → Google → Ads → Opt out of Ads Personalization</em>.</li>
-      <li>Google's Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a></li>
+      <li><strong>Device Identifiers:</strong> Such as the Android Advertising ID (AAID).</li>
+      <li><strong>Usage Data:</strong> Information about how you interact with ads.</li>
+    </ul>
+    <p>This data is used by Google to provide personalized ads and analytics. You can manage your ad preferences in your device's Google settings.</p>
+  </div>
+
+  <div class="card">
+    <h2>5. Notifications & Permissions</h2>
+    <p>Revisely sends local notifications for reminders. To ensure these work correctly:</p>
+    <ul>
+      <li>We use the <strong>RECEIVE_BOOT_COMPLETED</strong> permission to reschedule your local reminders after a device restart.</li>
+      <li>No data regarding your notification schedule is transmitted to external servers.</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>4. Notifications</h2>
-    <p>Revisely sends optional local notifications (streak reminders, daily goal alerts). These notifications are triggered entirely on-device using WorkManager — no data is sent to any server.</p>
-    <p>You can disable notifications at any time via your device's app notification settings.</p>
+    <h2>6. Data Security & Retention</h2>
+    <p>Your data is stored locally on your device and within your personal Google Cloud backup. We do not maintain any external databases. Data is retained as long as the app is installed or until you clear the app data in your system settings.</p>
   </div>
 
   <div class="card">
-    <h2>5. Third-Party Services</h2>
-    <p>The only third-party SDK integrated into Revisely is <strong style="color:#E2F5EB">Google AdMob</strong>. No analytics, crash reporting, or tracking SDKs are included.</p>
-  </div>
-
-  <div class="card">
-    <h2>6. Children's Privacy</h2>
-    <p>Revisely is designed for learners aged 13 and above. We do not knowingly collect data from children under 13. If you believe a child has provided personal data, please contact us so we can take appropriate action.</p>
-  </div>
-
-  <div class="card">
-    <h2>7. Data Security</h2>
-    <p>Since all data is stored locally on your device, security depends on your device's own protection mechanisms. We do not transmit any user data over the internet.</p>
-  </div>
-
-  <div class="card">
-    <h2>8. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated date. Continued use of the app after changes constitutes acceptance of the new policy.</p>
-  </div>
-
-  <div class="card">
-    <h2>9. Contact Us</h2>
+    <h2>7. Contact Us</h2>
     <p>If you have any questions about this Privacy Policy, please contact us at:</p>
     <p><a href="mailto:yogeshverma.dev@gmail.com">yogeshverma.dev@gmail.com</a></p>
   </div>
